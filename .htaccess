@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{QUERY_STRING} ^e30422456.0fees.us.* [NC]
+RewriteRule e30422456.0fees.us? [R=301,L]
