@@ -1,3 +1,2 @@
 RewriteEngine On
-RewriteCond %{QUERY_STRING} ^http://e30422456.0fees.us/* [NC]
-RewriteRule https://e30422456.github.io/self/? [R=301,L]
+Redirect 301 / http://e30422456.0fees.us/
