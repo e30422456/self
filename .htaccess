@@ -1,3 +1,2 @@
 RewriteEngine On
-RewriteCond %{HTTPS} off
 RewriteRule http://e30422456.0fees.us/? [R=301,L]
