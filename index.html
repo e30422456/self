@@ -13,14 +13,8 @@
   <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
   <link rel="bookmark" href="images/icon.ico" type="image/x-icon" />
   <!--fancybox-->
-  <link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
-  <link rel="stylesheet" type="text/css" href="assets/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
-  <link rel="stylesheet" type="text/css" href="assets/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
-  
-  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
   <link rel="stylesheet" href="assets/css/main.css" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
  </head>
  
  <body>
@@ -29,43 +23,41 @@
   <div class="top">
   <!-- Logo -->
    <div id="logo">
-	<h1 id="title" style="font-weight:500">Yi-Hua Lin</h1>
-	<p>Eva Lin</p>
+	<h1 id="title" style="font-weight:500">Yi-Hua(Eva) Lin</h1>
    </div>
 
    <!-- Nav -->
    <nav id="nav">
-	<ul>
-	 <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">首頁</span></a></li>
-	 <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">關於我</span></a></li>
-	 <li><a href="#graphic" id="graphic-link" class="skel-layers-ignoreHref"><span class="icon fa-image">平面</span></a></li>
-     <li><a href="#photo" id="photo-link" class="skel-layers-ignoreHref"><span class="icon fa-camera-retro">攝影</span></a></li>
-     <li><a href="#website" id="website-link" class="skel-layers-ignoreHref"><span class="icon fa-code">網頁</span></a></li>
-     <li><a href="#video" id="video-link" class="skel-layers-ignoreHref"><span class="icon fa-film">影片</span></a></li>
-	</ul>
+	<dl>
+	 <dt><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">首頁</span></a></dt>
+	 <dt><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">關於我</span></a></dt>
+	 <dt><a href="#apd"><span class="icon fa-building">Appledaily</span></a></dt>
+	 <dt><a href="#nse"><span class="icon fa-building">Nsecured</span></a></dt>
+	 <dt><a href="#arm"><span class="icon fa-building">Armarpot</span></a></dt>
+	 <dt><a href="#mcu"><span class="icon fa-graduation-cap">大學時期</span></a></dt>
+	</dl>
    </nav>
   </div>
-
+  
   <div class="bottom">
   <!-- Social Icons -->
    <ul class="icons">
-	<li><a href="https://www.youtube.com/channel/UCdfJXi5xZhfgHgLeaAArAcA" class="icon fa-youtube-play " target="_blank"><span class="label">Youtube</span></a></li>
-	<li><a href="https://www.facebook.com/limitless.evalin" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-	<li><a href="https://www.instagram.com/ave_auhiynil/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-	<li><a href="https://www.flickr.com/photos/e02090435/albums" class="icon fa-flickr" target="_blank"><span class="label">Flickr</span></a></li>
+	<li><a href="https://www.youtube.com/@limitless_evalin/" class="icon fa-youtube-play " target="_blank"><span class="label">Youtube</span></a></li>
+	<li><a href="https://e02090435.smugmug.com/" class="icon fa-camera" target="_blank"><span class="label">Flickr</span></a></li>
+	<li><a href="https://www.behance.net/e30422456" class="icon fa-behance" target="_blank"><span class="label">Youtube</span></a></li>
 	<li><a href="https://www.pinterest.com/limitlessevalin/" class="icon fa-pinterest-p" target="_blank"><span class="label">Pinterest</span></a></li>
 	<li><a href="mailto:e30422456@yahoo.com.tw" class="icon fa-envelope"><span class="label">Email</span></a></li>
    </ul>
   </div>
  </div>
-
+ 
  <!-- Main -->
  <div id="main">
   <!-- Intro -->
   <section id="top" class="one dark cover">
    <div class="container">
     <header>
-     <h2 class="alt">Welcome to Eva Lin's portfolio</h2>
+     <h2 class="alt" style="color:#fff;">Welcome to Eva Lin's portfolio</h2>
 	</header>
 	<footer>
 	 <a href="#about" class="button scrolly">Start scrolling down</a>
@@ -74,31 +66,36 @@
   </section>
   
   <!-- About Me -->
-  <section id="about" class="three">
+  <section id="about" class="two">
    <div class="container">
 	<header>
 	 <h3>關於我</h3>
 	</header>
     
 	<div class="row">
-	 <div class="6u 12u$(mobile)">
+	 <div class="3u 12u$(mobile)">
      <article class="item">
 	  <a href="#" class="image fit"><img src="images/pic08.jpg" alt="" /></a>
 	 </div>
-	 <div class="6u 12u$(mobile)">
-	 <article class="about item">
+	 <div class="9u 12u$(mobile)">
+	 <article class="about">
 	  <p>
       <strong>姓名：</strong> Yi-Hua Lin<br>
       <strong>學歷：</strong> 私立銘傳大學 數位媒體設計學系 學士<br>
       <strong>E-mail：</strong> e30422456@yahoo.com.tw<br>
       <br>
+	  <strong>工作經驗：</strong><br>
+	  2022.09-2023.01 壹蘋新聞網 剪接師<br>
+	  2020.10-2022.08 蘋果日報 剪接師<br>
+	  2019.03-2020.08 新易智慧科技 動畫師<br>
+	  2017.11-2019.02 阿媽牌生鐵鍋 美編人員<br>
+	  2015.07-2017.09 銘傳大學 體育室、藝術中心、觀光學院、社會科學院、財金系 網頁編輯<br>
       <strong>參展紀錄:</strong><br>
-	  2016.10.29-11.30 崁仔腳常民攝影工作坊<br>
       2017.05.19-05.22 第36屆新一代設計展<br>
+	  2016.10.29-11.30 崁仔腳常民攝影工作坊<br>
       <strong> 得獎紀錄:</strong><br>
 	  2016 第25屆時報金犢獎廣告設計類 銀犢獎<br>
-	  <strong>工作經驗：</strong><br>
-	  2015.07-2017.09 銘傳大學 體育室、藝術中心、觀光學院、社會科學院、財金系 網頁編輯及維護
+
       </p>
 	 </article>
 	 </div>
@@ -106,8 +103,160 @@
    </div>
   </section>
   
-  <!-- Portfolio -->
-  <section id="graphic" class="two">
+<!--appledaily -->
+  <section id="apd" class="three">
+   <div class="container">
+    <header>
+    <h2>蘋果日報+壹蘋新聞網 作品</h2>
+    </header>
+    <p>負責各類新聞與專題剪接<br>
+	   點進圖片可看到更詳細的內容。</p>
+	 <div class="row">
+	  <div class="6u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.youtube.com/playlist?list=PLYXg0a1WbhDTh_isx1H2EMZxOaAuNFP5V" target="_blank"><img src="images/graphic/ap02.jpg" alt="" /></a>
+	   <header>
+	   <h3>精選</h3>
+	   </header>
+	  </article>
+	 </div>
+     <div class="6u 12u$(mobile)">
+	  <article class="item">
+	    <a class="image fit" href="https://www.youtube.com/playlist?list=PLYXg0a1WbhDSIbuDopa3fxW6KoW9g8Vsj" target="_blank"><img src="images/graphic/ap01.jpg" alt="" /></a>
+	   <header>
+	   <h3>所有影片</h3>
+	   </header>
+	  </article>
+	 </div>
+    </div>
+   </div>
+  </section> 
+  
+<!--nsecured -->
+  <section id="nse" class="four">
+   <div class="container">
+    <header>
+    <h2>新易智慧科技 作品</h2>
+    </header>
+    <p>負責製作各類的Motion Graphics<br>
+	   詳細內容在這：<a href="https://www.youtube.com/playlist?list=PLYXg0a1WbhDQ-dCSnguCYBNqxr-N2ydOZ">2019-2020 NSECURED 影片</a></p>
+	 <div class="row">
+	  <div class="6u 12u$(mobile)">
+	  <article class="item">
+	    <a class="image"><img src="images/graphic/ns01.png" alt="" /></a>
+	   <header>
+	   <h3>HyperChain 應用</h3>
+	   </header>
+	  </article>
+	 </div>
+     <div class="6u 12u$(mobile)">
+	  <article class="item">
+	    <a class="image"><img src="images/graphic/ns02.png" alt="" /></a>
+	   <header>
+	   <h3>臉部辨識</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="6u 12u$(mobile)">
+	  <article class="item">
+	    <a class="image"><img src="images/graphic/ns03.png" alt="" /></a>
+	   <header>
+	   <h3>代碼化技術</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="6u 12u$(mobile)">
+	  <article class="item">
+	    <a class="image"><img src="images/graphic/ns04.png" alt="" /></a>
+	   <header>
+	   <h3>食物CV</h3>
+	   </header>
+	  </article>
+	 </div>
+    </div>
+   </div>
+  </section> 
+  
+  
+  <!--armarpot -->
+  <section id="arm" class="two">
+   <div class="container">
+    <header>
+    <h2>阿媽牌生鐵鍋 作品</h2>
+    </header>
+    <p>負責平面設計、維護商場、經營社群、影片拍攝剪接<br>
+	   點進圖片可看到更詳細的內容。</p>
+	 <div class="row">
+	  <div class="3u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.flickr.com/photos/130455544@N04/albums/72177720307410875" target="_blank"><img src="images/graphic/ar01.png" alt="" /></a>
+	   <header>
+	   <h3>活動-月曆設計</h3>
+	   </header>
+	  </article>
+	 </div>
+     <div class="3u 12u$(mobile)">
+	  <article class="item">
+	    <a class="image fit" href="https://www.flickr.com/photos/130455544@N04/albums/72177720307410880" target="_blank"><img src="images/graphic/ar02.png" alt="" /></a>
+	   <header>
+	   <h3>店內印刷品</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="3u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.flickr.com/photos/130455544@N04/albums/72177720307410885" target="_blank"><img src="images/graphic/ar03.png" alt="" /></a>
+	   <header>
+	   <h3>商品介紹圖</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="3u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.flickr.com/photos/130455544@N04/albums/72177720307410890" target="_blank"><img src="images/graphic/ar04.png" alt="" /></a>
+	   <header>
+	   <h3>廣告圖</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="3u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.flickr.com/photos/130455544@N04/albums/72177720307410895" target="_blank"><img src="images/graphic/ar05.png" alt="" /></a>
+	   <header>
+	   <h3>社群圖</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="3u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.flickr.com/photos/130455544@N04/albums/72177720307410900" target="_blank"><img src="images/graphic/ar06.png" alt="" /></a>
+	   <header>
+	   <h3>商場Banner圖</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="3u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.flickr.com/photos/130455544@N04/albums/72177720307410905" target="_blank"><img src="images/graphic/ar07.png" alt="" /></a>
+	   <header>
+	   <h3>商品圖</h3>
+	   </header>
+	  </article>
+	  </div>
+	  <div class="3u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://www.youtube.com/playlist?list=PLYXg0a1WbhDT_eS8FCS4Ezy6zjY6u4YYm" target="_blank"><img src="images/graphic/ar08.png" alt="" /></a>
+	   <header>
+	   <h3>影片拍攝剪接</h3>
+	   </header>
+	  </article>
+	  </div>
+	</div>
+   </div>
+  </section> 
+  
+  <!-- arm -->
+  <section id="mcu" class="three">
    <div class="container">
     <header>
     <h2>平面作品</h2>
@@ -115,168 +264,106 @@
     <p>使用工具： Photoshop, Illstrator, Painter, CorelDraw<br>
 	點進圖片可看到整個網頁內容。</p>
 	 <div class="row">
-	  <div class="3u 6u(mobile)">
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra1.jpg"><img src="images/graphic/gra1.jpg" alt="" /></a>
-	   <header>
-	   <h3>海報-恆心與毅力 (Photoshop)</h3>
-	   </header>
-	  </article>
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra5.jpg"><img src="images/graphic/gra5.jpg" alt="" /></a>
-	   <header>
-	   <h3>海報-我的名字是小建雞 (Photoshop)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra9.jpg"><img src="images/graphic/gra9.jpg" alt="" /></a>
-	   <header>
-	   <h3>文字編排 (Photoshop)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra13.jpg"><img src="images/graphic/gra13.jpg" alt="" /></a>
-	   <header>
-	   <h3>明信片 (CorelDraw)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra17.jpg"><img src="images/graphic/gra17.jpg" alt="" /></a>
-	   <header>
-	   <h3>廢墟 (Painter)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra22.gif"><img src="images/graphic/gra22.gif" alt="" /></a>
-	   <header>
-	   <h3>梅雨季節 (After Effects, Photoshop)</h3>
-	   </header>
-	  </article>
-	 </div>
-
-	 <div class="3u 6u(mobile)">
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra2.jpg"><img src="images/graphic/gra2.jpg" alt="" /></a>
-	   <header>
-	   <h3>沒時間討厭你 (Photoshop)</h3>
-	   </header>
-	  </article>
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra6.jpg"><img src="images/graphic/gra6.jpg" alt="" /></a>
-	   <header>
-	   <h3>海報-我的名字是小建雞 (Photoshop)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra10.gif"><img src="images/graphic/gra10.gif" alt="" /></a>
-	   <header>
-	   <h3>Pixel-繁忙的城市 (Photoshop)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra14.jpg"><img src="images/graphic/gra14.jpg" alt="" /></a>
-	   <header>
-	   <h3>Line 表情貼圖 (Illstrator)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra18.jpg"><img src="images/graphic/gra18.jpg" alt="" /></a>
-	   <header>
-	   <h3>場景-酸的感覺 (Painter)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra21.jpg"><img src="images/graphic/gra21.jpg" alt="" /></a>
-	   <header>
-	   <h3>場景-辣的感覺 (Painter)</h3>
-	   </header>
-	 </div>
-
-	 <div class="3u 6u(mobile)">
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra3.jpg"><img src="images/graphic/gra3.jpg" alt="" /></a>
-	   <header>
-	   <h3>仿製排版 (Photoshop)</h3>
-	   </header>
-	  </article>
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra7.jpg"><img src="images/graphic/gra7.jpg" alt="" /></a>
-	   <header>
-	   <h3>海報-我的名字是小建雞 (Photoshop)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra11.jpg"><img src="images/graphic/gra11.jpg" alt="" /></a>
-	   <header>
-	   <h3>繪本-奶奶的十三雙鞋 (Photoshop, Painter)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra15.jpg"><img src="images/graphic/gra15.jpg" alt="" /></a>
-	   <header>
-	   <h3>手機桌布-池邊 (Illstrator)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra19.jpg"><img src="images/graphic/gra19.jpg" alt="" /></a>
-	   <header>
-	   <h3>場景-甜的感覺 (Painter)</h3>
-	   </header>
-	  </article>
-	 </div>
-     
-     <div class="3u 6u(mobile)">
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra4.jpg"><img src="images/graphic/gra4.jpg" alt="" /></a>
-	   <header>
-	   <h3>仿製排版 (Photoshop)</h3>
-	   </header>
-	  </article>
-	  <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra8.jpg"><img src="images/graphic/gra8.jpg" alt="" /></a>
-	   <header>
-	   <h3>仿製海報-啟動原始碼 (Photoshop)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra12.jpg"><img src="images/graphic/gra12.jpg" alt="" /></a>
-	   <header>
-	   <h3>包裝設計 (Photoshop)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra16.jpg"><img src="images/graphic/gra16.jpg" alt="" /></a>
-	   <header>
-	   <h3>手機icon設計 (Illstrator)</h3>
-	   </header>
-	  </article>
-      <article class="item">
-	   <a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/graphic/gra20.jpg"><img src="images/graphic/gra20.jpg" alt="" /></a>
-	   <header>
-	   <h3>場景-苦的感覺 (Painter)</h3>
-	   </header>
-	  </article>
-	 </div>
-
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra1.jpg" data-fancybox data-caption="海報-恆心與毅力 (Photoshop)"><img src="images/graphic/gra1.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra2.jpg" data-fancybox data-caption="沒時間討厭你 (Photoshop)"><img src="images/graphic/gra2.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	  <a class="image" href="images/graphic/gra3.jpg" data-fancybox data-caption="仿製排版 (Photoshop)"><img src="images/graphic/gra3.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra4.jpg" data-fancybox data-caption="仿製排版 (Photoshop)"><img src="images/graphic/gra4.jpg" alt="" /></a>
+	  </div>
+	  </div>
+	  <div class="row">
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra5.jpg" data-fancybox data-caption="海報-我的名字是小建雞 (Photoshop)"><img src="images/graphic/gra5.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra6.jpg" data-fancyboxdata-caption="海報-我的名字是小建雞 (Photoshop)"><img src="images/graphic/gra6.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra7.jpg" data-fancybox data-caption="海報-我的名字是小建雞 (Photoshop))"><img src="images/graphic/gra7.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra8.jpg" data-fancybox data-caption="仿製海報-啟動原始碼 (Photoshop)"><img src="images/graphic/gra8.jpg" alt="" /></a>
+	  </div>
+	  </div>
+	  <div class="row">
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra9.jpg" data-fancybox data-caption="文字編排 (Photoshop)"><img src="images/graphic/gra9.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra10.gif" data-fancybox data-caption="Pixel-繁忙的城市 (Photoshop)"><img src="images/graphic/gra10.gif" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra11.jpg" data-fancybox data-caption="繪本-奶奶的十三雙鞋 (Photoshop, Painter)"><img src="images/graphic/gra11.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra12.jpg" data-fancybox data-caption="包裝設計 (Photoshop)"><img src="images/graphic/gra12.jpg" alt="" /></a>
+	  </div>
+	  </div>
+	  <div class="row">
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra13.jpg" data-fancybox data-caption="明信片 (CorelDraw)"><img src="images/graphic/gra13.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra14.jpg" data-fancybox data-caption="Line 表情貼圖 (Illstrator)"><img src="images/graphic/gra14.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra15.jpg" data-fancybox data-caption="手機桌布-池邊 (Illstrator)"><img src="images/graphic/gra15.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	  <a class="image" href="images/graphic/gra16.jpg" data-fancybox data-caption="手機icon設計 (Illstrator)"><img src="images/graphic/gra16.jpg" alt="" /></a>
+	  </div>
+	  </div>
+	  <div class="row">
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra17.jpg" data-fancybox data-caption="廢墟 (Painter)"><img src="images/graphic/gra17.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra18.jpg" data-fancybox data-caption="場景-酸的感覺 (Painter)"><img src="images/graphic/gra18.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra19.jpg" data-fancybox data-caption="場景-甜的感覺 (Painter)"><img src="images/graphic/gra19.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra20.jpg" data-fancybox data-caption="場景-苦的感覺 (Painter)"><img src="images/graphic/gra20.jpg" alt="" /></a>
+	  </div>
+	  </div>
+	  <div class="row">
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra21.jpg" data-fancybox data-caption="場景-辣的感覺 (Painter)"><img src="images/graphic/gra21.jpg" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	   <a class="image" href="images/graphic/gra22.gif" data-fancybox data-caption="梅雨季節 (After Effects, Photoshop)"><img src="images/graphic/gra22.gif" alt="" /></a>
+	  </div>
+	  <div class="3u">
+	  </div>
+	  <div class="3u">
+	  </div>
+	  </div>
 	</div>
-   </div>
   </section>
   
+  
   <!--Photo -->
-  <section id="photo" class="four">
+  <section id="mcu_p" class="four">
    <div class="container">
 	<header>
 	 <h3>攝影作品</h3>
 	</header>
-	<a class="fancybox-effects-a image fit" data-fancybox-group="thumb" href="images/pic01.jpg"><img src="images/pic01.jpg" alt="" /></a>
+	<a class="image"href="images/pic01.jpg" data-fancybox><img src="images/pic01.jpg" alt="" /></a>
     <p style="text-align:left;margin-top:1em;">　　這是在桃園中壢的瑯嬛書店所舉辦的崁仔腳常民攝影工作坊，在2016 年8 月期間，除了學習一些拍攝技巧，也與學員們互相交流，在之後11 月的成果展中展出。<br>
 　　作品名稱叫做「迷路」，取這個名字是因為在拍攝期間獨自一人騎車在桃園迷路，在迷路時看到許多我曾未去過的地方；也因為那時是大四，有很多事情感到迷惘，於是慢下腳步去看看周遭的風景。</p>
-	<p style="text-align:left">若要看其他作品，請去我的<a href="https://www.flickr.com/photos/e02090435/albums">Flickr</a>觀賞。</p>
+	<p style="text-align:left">若要看其他作品，請去我的<a href="https://e02090435.smugmug.com/">Smugmug</a>觀賞。</p>
    </div>
   </section>
 
   <!--webite -->
-  <section id="website" class="two">
+  <section id="mcu_w" class="two">
    <div class="container">
     <header>
     <h2>網頁作品</h2>
@@ -300,12 +387,28 @@
 	   </header>
 	  </article>
 	 </div>
+	  <div class="6u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://e30422456.github.io/moochanchen/" target="_blank"><img src="images/pic04.png" alt="" /></a>
+	   <header>
+	   <h3>大學同學 ㄇ吃的作品網站</h3>
+	   </header>
+	  </article>
+	 </div>
+	  <div class="6u 12u$(mobile)">
+	  <article class="item">
+	   <a class="image fit" href="https://e30422456.github.io/moochanchen/being_love/" target="_blank"><img src="images/pic05.png" alt="" /></a>
+	   <header>
+	   <h3>大學同學 ㄇ吃的畢業製作</h3>
+	   </header>
+	  </article>
+	 </div>
     </div>
    </div>
   </section>
 
   <!--video-->
-  <section id="video" class="three">
+  <section id="mcu_v" class="three">
    <div class="container">
     <header>
     <h2>動畫影片</h2>
@@ -407,38 +510,27 @@
    <ul class="copyright">
     <li>&copy; Eva Lin. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
    </ul>
+    <div id="go-top">
+ <a href="#top" >
+  ↑<br>TOP
+</a>
+</div>
+   </div>
+   
 
-			</div>
 
-		<!-- Scripts -->
-				<script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-	<script type="text/javascript" src="assets/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-	<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-	<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-	<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.fancybox').fancybox();
-			$(".fancybox-effects-a").fancybox({
-				helpers: {
-					title : {
-						type : 'outside'
-					},
-					overlay : {
-						speedOut : 0
-					}
-				}
-			});
-			});
-	</script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-            
-
-	</body>
+ <!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script>
+Fancybox.bind("[data-fancybox]", {
+    ratio: 16 / 10,
+});
+</script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
